@@ -35,9 +35,9 @@
       // dengan keyword yang telah di input
       $sql2 = mysqli_query($connect, "SELECT COUNT(*) AS jumlah FROM data_guru WHERE induk LIKE '" . $param . "' OR nama LIKE '" . $param . "' OR kelamin LIKE '" . $param . "' OR ttl LIKE '" . $param . "' OR status_guru LIKE '" . $param . "'");
       $get_jumlah = mysqli_fetch_array($sql2);
-    } else { // Jika user belum mengklik tombol search (PROSES TANPA AJAX)
-      // Buat query untuk menampilkan semua data guru
-      $sql = mysqli_query($connect, "SELECT * FROM data_guru ORDER BY nama ASC LIMIT " . $limit_start . "," . $limit);
+    } else {  // Jika user belum mengklik tombol search (PROSES TANPA AJAX)
+              // Buat query untuk menampilkan semua data guru
+      $sql = mysqli_query($connect, "SELECT * FROM data_guru LIMIT " . $limit_start . "," . $limit);
 
       // Buat query untuk menghitung semua jumlah data
       $sql2 = mysqli_query($connect, "SELECT COUNT(*) AS jumlah FROM data_guru");
