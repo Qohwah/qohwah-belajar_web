@@ -23,9 +23,11 @@
                 </div>
 
                 <div class="qohwah-box">
-                    <div class="qohwah-icon">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
+                    <a href="pages/database-guru/indexguru.php">
+                        <div class="qohwah-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </a>
                     <div class="qohwah-title">Database Guru</div>
                     <div class="qohwah-desc"></div>
                 </div>
