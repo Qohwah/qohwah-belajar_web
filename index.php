@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="qohwah-box">
-                    <a href="pages/database-guru/indexguru.php">
+                    <a href="pages/database-guru/">
                         <div class="qohwah-icon">
                             <i class="fas fa-user-graduate"></i>
                         </div>
