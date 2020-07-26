@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Data Guru</title>
 
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Load File bootstrap.min.css yang ada difolder css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
