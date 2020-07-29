@@ -16,22 +16,43 @@
     padding: 0 20px;
     overflow: hidden;
 }
+
+.navbar-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-navbar{
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    transition: 0.1s;
+}
+
+.menu-navbar a{
+    text-decoration: none;
+    color: #7B241C;
+    text-transform: uppercase;
+}
+
 .section-title{
     text-align: center;
     text-transform: uppercase;
 }
 
 .border{
-    width: 160px;
+    width: 450px;
     height: 2px;
     background: #7B241C;
     margin: 40px auto;
 }
 
 .border2{
-    width: 600px;
+    width: 160px;
     height: 2px;
-    background: #D0D3D4;
+    background: #7B241C;
     margin: 50px auto;
 }
 
@@ -41,30 +62,31 @@
     justify-content: center;
     min-height: 100%;
 }
+
 .qohwah-box{
     max-width: 33.33%;
     padding: 25px;
     text-align: center;
     cursor: pointer;
 }
+
 .qohwah-icon{
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    border: 3px solid #7B241C;
+    width: 100px;
+    height: 100px;
     color: #7B241C;
-    transform: rotate(45deg);
-    margin-bottom: 30px;
-    margin-top: 16px;
-    transition: 0.1s;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.25s;
 }
 .qohwah-icon i{
-    line-height: 70px;
-    transform: rotate(-45deg);
-    font-size: 26px;
+    line-height: 100px;
+    font-size: 30px;
 }
 .qohwah-box:hover .qohwah-icon{
     background: #7B241C;
+    border-radius: 50px;
     color: white;
 }
 .qohwah-title{
