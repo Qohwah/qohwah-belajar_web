@@ -11,23 +11,7 @@
     <div class="qohwah-section">
         <div class="inner-width">
             
-            <div class="navbar-top">
-
-                <div class="menu-navbar">
-                    <a href="">Tata Usaha</a>
-                </div>
-                <div class="menu-navbar">
-                    <a href="">Kurikulum</a>
-                </div>
-                <div class="menu-navbar">
-                    <a href="">Keuangan</a>
-                </div>
-                <div class="menu-navbar">
-                    <a href="">Perpustakaan</a>
-                </div>
-
-            </div>
-
+            <h1 class="section-title">qohwah 2020</h1>
             <div class="border"></div>
             <div class="qohwah-container">
 
@@ -76,7 +60,6 @@
             </div>
             
             <div class="border2"></div>
-            <h1 class="section-title">qohwah 2020</h1>
 
         </div>
     </div>

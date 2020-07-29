@@ -17,43 +17,23 @@
     overflow: hidden;
 }
 
-.navbar-top{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.menu-navbar{
-    display: inline-block;
-    width: 120px;
-    margin-top: 10px;
-    margin-bottom: -30px;
-    transition: 0.1s;
-}
-
-.menu-navbar a{
-    text-decoration: none;
-    color: #7B241C;
-    text-transform: uppercase;
-}
-
 .section-title{
     text-align: center;
     text-transform: uppercase;
 }
 
 .border{
-    width: 450px;
+    width: 200px;
     height: 2px;
     background: #7B241C;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .border2{
-    width: 160px;
+    width: 300px;
     height: 2px;
     background: #7B241C;
-    margin: 50px auto;
+    margin: 60px auto;
 }
 
 .qohwah-container{
