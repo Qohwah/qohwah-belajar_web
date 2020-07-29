@@ -1,5 +1,5 @@
 <div class="table-responsive">
-  <table class="table table-bordered">
+  <table class="table table-bordered table-hover">
     <tr>
       <th>NO</th>
       <th>NO INDUK</th>
