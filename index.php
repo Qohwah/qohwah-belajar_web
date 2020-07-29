@@ -19,7 +19,7 @@
                     <div class="qohwah-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <div class="qohwah-title">Database Santri</div>
+                    <div class="qohwah-title">Data Santri</div>
                     <div class="qohwah-desc"></div>
                 </div>
 
@@ -29,7 +29,7 @@
                             <i class="fas fa-user-graduate"></i>
                         </div>
                     </a>
-                    <div class="qohwah-title">Database Guru</div>
+                    <div class="qohwah-title">Data Guru</div>
                     <div class="qohwah-desc"></div>
                 </div>
 
